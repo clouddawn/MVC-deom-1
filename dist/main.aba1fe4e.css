@@ -57,17 +57,14 @@ body > .page > section {
 }
 #app3 .square {
     border: 1px solid grey;
-    width: 15vw;
-    height: 15vw;
-    margin-top: 10vw;
-    margin-left: 10vw;
+    width: 15vh;
+    height: 15vh;
+    margin-top: 10vh;
+    margin-left: 10vh;
     transition: transform 1s;
 }
 #app3 .square.active {
     transform: translateX(15vw);
-}
-#app4 {
-
 }
 @keyframes change {
     0% {
@@ -78,8 +75,8 @@ body > .page > section {
     }
 }
 #app4 .circle {
-    width: 30vw;
-    height: 30vw;
+    width: 30vh;
+    height: 30vh;
     border-radius: 50%;
     border: 1px solid red;
 }
@@ -87,4 +84,4 @@ body > .page > section {
     animation: change 1s infinite linear alternate;
 }
 
-/*# sourceMappingURL=main.ed2ee5f3.css.map */
+/*# sourceMappingURL=main.aba1fe4e.css.map */
